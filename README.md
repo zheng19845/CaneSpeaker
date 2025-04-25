@@ -1,8 +1,5 @@
 # CaneSpeaker: An LLM-Assisted Speaker for Generating Human-Like Navigation Instructions
 We propose a novel Vision-Language Model (VLM)-based speaker, **CaneSpeaker**, to generate human-like instructions from front-facing images for a variety of VLN tasks.
-By leveraging the advanced reasoning capabilities of a pre-trained VLM, CaneSpeaker can effectively generate high-quality instructions directly from front-facing images without relying on panoramic views.
-Additionally, the prompt-based characteristic of the VLM enables the processing of multiple VLN task, thus allowing us to address data scarcity by combining multiple datasets from different VLN tasks.
-Moreover, to further mitigate the limited amount of speaker-training data, we propose an LLM-based instruction augmentation method, **LLM-IA**, that generates instructions with human-level accuracy for training CaneSpeaker.
 
 ![Concept](teaser.png)
 
